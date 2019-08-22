@@ -1,0 +1,8 @@
+{
+  "name": "nonce-hmac",
+  "version": "0.1.0",
+  "description": "Nonce HMAC",
+  "main": "index.js",
+  "author": "@philjung94",
+  "license": "MIT"
+}
