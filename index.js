@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+const crypto = require('crypto')
 module.exports = ( { key = '', nonce = '', payload = ''} ) => {
   for (const i of [key, nonce, payload]) {
     if (!i) throw new Error('Key, nonce and payload are required.')
